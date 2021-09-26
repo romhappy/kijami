@@ -26,12 +26,19 @@ function add_Main_Nav() {
   // Hook to the init action hook, run our navigation menu function
   add_action( 'init', 'add_Main_Nav' );
 
+
   //ajout du menu logo dans le backoffice
   function theme_prefix_setup() {
-    add_theme_support( 'custom-logo' , array(
-        'height'      => 175,
-        'width'       => 400,
-        'flex-width' => true,
-     ) );
+	
+	add_theme_support( 'custom-logo', array(
+		'height'      => 100,
+		'width'       => 400,
+		'flex-width' => true,
+	) );
+
 }
 add_action( 'after_setup_theme', 'theme_prefix_setup' );
+
+
+
+
