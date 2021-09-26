@@ -3,9 +3,7 @@
   <section class="content-area content-thin">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <article class="article-full">
-        <header>
-        </header>
-        <?php the_content(); ?>
+      <?php the_content(); ?>
       </article>
 <?php endwhile; else : ?>
       <article>
