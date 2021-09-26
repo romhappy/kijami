@@ -8,7 +8,8 @@
    <?php wp_head(); ?>
  </head>
  <body <?php body_class(); ?>>
-   <header class="my-logo">
-   <?php the_custom_logo( $blog_id = 0 );?>
+   <header class="header">
+   <?php the_custom_logo();?>
+   <?php wp_nav_menu( array( 'header-menu' => 'header-menu' ) ); ?>
+   <button type=button>Créer mon passeport</button>
  </header>
- <?php wp_nav_menu( array( 'header-menu' => 'header-menu' ) ); ?>
