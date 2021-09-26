@@ -9,6 +9,6 @@
  </head>
  <body <?php body_class(); ?>>
    <header class="my-logo">
-   <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a></h1>
+   <?php the_custom_logo( $blog_id = 0 );?>
  </header>
  <?php wp_nav_menu( array( 'header-menu' => 'header-menu' ) ); ?>
