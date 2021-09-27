@@ -8,16 +8,18 @@ License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-.wp-block-columns{
-    width:800px;
-    margin:auto;
-
-}
-
-
 header{
     display:flex;
     justify-content: space-between;
+}
+
+
+
+/*MENU*/
+
+/*retirer la puce de la liste des menus*/
+.menu-item-20, .menu-item-21{
+    list-style-type:none;
 }
 
 #menu-main{
@@ -25,3 +27,9 @@ header{
     justify-content: space-between;
 }
 
+/*allignement au centre des blocks GUTENBERG*/
+.wp-block-columns{
+    width:800px;
+    margin:auto;
+
+}
