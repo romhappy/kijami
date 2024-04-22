@@ -1,8 +1,3 @@
-@extends('base')
-
-@section('title','About')
-
-@section('content')
-<h1>About</h1>
-
-@endsection
+<x-layout>
+    <h1>About page</h1>
+</x-layout>

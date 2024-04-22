@@ -1,8 +1,3 @@
-@extends('base')
-
-@section('title','Home')
-
-@section('content')
-<h1>Home</h1>
-
-@endsection
+<x-layout>
+    <h1>Home page</h1>
+</x-layout>

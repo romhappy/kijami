@@ -16,8 +16,11 @@
 </head>
 
 <body>
-    @include('navbar.navbar')
-    @yield('content')
+<nav>
+    <x-nav-link href="/">Home</x-nav-link>
+    <x-nav-link href="/about">About</x-nav-link>
+</nav>
+    {{ $slot }}
 </body>
 
 </html>
