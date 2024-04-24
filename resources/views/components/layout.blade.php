@@ -12,6 +12,7 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
     <!-- Styles -->
+    <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
 
 </head>
 
