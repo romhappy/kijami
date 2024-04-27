@@ -18,8 +18,10 @@
 
 <body>
 <nav>
-    <x-nav-link href="/">Home</x-nav-link>
-    <x-nav-link href="/about">About</x-nav-link>
+
+    <img src="{{ URL::to('/') }}/img/nav_logo.svg" class="nav_logo" alt="logo du site">
+    <button>Connection</button>
+    <button>Créer un compte</button>
 </nav>
     {{ $slot }}
 </body>

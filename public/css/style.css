@@ -1,7 +1,10 @@
-html{
-    background-color: brown;
+nav{
+    display: flex;
+    flex-direction: row;
+
 }
 
-h1{
-    font-size: xx-large;
+.nav_logo{
+    height:75px;
+    width:auto;
 }
