@@ -17,12 +17,13 @@
 </head>
 
 <body>
-<nav>
-
-    <img src="{{ URL::to('/') }}/img/nav_logo.svg" class="nav_logo" alt="logo du site">
-    <button>Connection</button>
-    <button>Créer un compte</button>
-</nav>
+    <nav>
+        <img src="{{ URL::to('/') }}/img/nav_logo.svg" class="nav_logo" alt="logo du site">
+        <div class="nav_btn_container">
+            <button class="nav_btn">Connection</button>
+            <button class="nav_btn">Créer un compte</button>
+        </div class="nav_btn_container">
+    </nav>
     {{ $slot }}
 </body>
 

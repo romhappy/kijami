@@ -1,10 +1,28 @@
 nav{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 .nav_logo{
     height:75px;
     width:auto;
+}
+
+.nav_btn_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.nav_btn{
+    margin:15px;
+    background-color: #481c4b;
+    color:antiquewhite;
+    padding:10px;
+    border:none;
+    border-radius: 30%;
 }
