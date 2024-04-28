@@ -81,7 +81,7 @@ nav {
     font-weight: 350;
 }
 
-.card_title_container{
+.homepage_subtitle{
     display:flex;
     margin-top: 150px;
     justify-content: center;
@@ -119,8 +119,25 @@ nav {
 .card_title {
     font-size: 20px;
     font-weight: 500;
+    text-align: center;
 }
 .text_card {
     font-size: 15px;
     font-weight: 350;
+    text-align: center;
+}
+
+.explain_container{
+    display:flex;
+    flex-direction: row;
+    width:70%;
+    gap:15%;
+    margin:auto;
+    margin-bottom: 200px;
+}
+
+.sub_explain_container{
+    display:flex;
+    flex-direction: column;
+    gap:25%;
 }
