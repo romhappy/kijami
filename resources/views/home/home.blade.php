@@ -2,8 +2,8 @@
     <div class="hero_background">
         <div class="hero_container">
             <div>
-                <p>Eclairer l'inclusion par des évaluations précises.</p>
-                <p class="hero_subtitle">Un outil open-source destiné à aider les personnes en situation de handicap,
+                <p>Présenter clairement et simplement une situation de handicap.</p>
+                <p class="hero_subtitle">Kijami est un outil open-source destiné à aider les personnes en situation de handicap,
                     les professionnels et les familles à communiquer sur les situations de handicap et les besoins qui
                     en résultent. </p>
             </div>

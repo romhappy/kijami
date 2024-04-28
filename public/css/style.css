@@ -58,6 +58,7 @@ nav {
     color: white;
     padding: 30px;
     gap: 15%;
+    border-radius: 15px;
 }
 
 .hero_img {
@@ -93,6 +94,7 @@ nav {
     width: 25%;
     box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
     padding:2%;
+    border-radius: 15px;
 }
 
 .img_card {
