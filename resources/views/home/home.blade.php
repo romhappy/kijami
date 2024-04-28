@@ -10,6 +10,9 @@
             <img src="{{ URL::to('/') }}/img/hero_img.svg" class="hero_img" alt="logo du site">
         </div>
     </div>
+    <div class="card_title_container">
+        <h1>A qui s'adresse Kijami?</h1>
+    </div>
     <div class="cards_container">
         <div class="card">
             <img src="{{ URL::to('/') }}/img/personn_card.svg" class="img_card"

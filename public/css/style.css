@@ -46,7 +46,7 @@ nav {
     align-items: center;
     width: auto;
     height: auto;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .hero_container {
@@ -81,10 +81,17 @@ nav {
     font-weight: 350;
 }
 
+.card_title_container{
+    display:flex;
+    margin-top: 150px;
+    justify-content: center;
+
+}
+
 .cards_container {
     display: flex;
     flex-direction: row;
-    margin: 200px 200px;
+    margin: 50px 200px;
     align-content: space-between;
     gap: 10%;
 }
