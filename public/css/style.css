@@ -43,7 +43,7 @@ nav {
     align-items: center;
     width: auto;
     height: auto;
-    margin-top:100px;
+    margin-top: 200px;
 }
 
 .hero_container {
@@ -57,16 +57,57 @@ nav {
     background-color: #0e2776;
     color: white;
     padding: 30px;
+    gap: 15%;
 }
 
 .hero_img {
     background-color: white;
     border-radius: 45px;
-    height: 343px;
+    height: 100%;
     padding: 10px;
+    max-width: 500px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    min-width: 200px;
 }
 
 .hero_subtitle {
     font-size: 20px;
+    font-weight: 350;
+}
+
+.cards_container {
+    display: flex;
+    flex-direction: row;
+    margin: 200px 200px;
+    align-content: space-between;
+    gap: 10%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    align-items: center;
+    width: 25%;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+    padding:2%;
+}
+
+.img_card {
+    height: 20vh;
+    padding: 10px;
+    max-width: 50%;
+    width: 100%;
+    min-width: 75px;
+}
+
+.card_title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.text_card{
+    font-size: 15px;
     font-weight: 350;
 }
