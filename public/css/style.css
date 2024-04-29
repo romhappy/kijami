@@ -142,7 +142,7 @@ nav {
 .sub_explain_container {
     display: flex;
     flex-direction: column;
-    gap: 25%;
+    gap: 40%;
 }
 
 .domain {
