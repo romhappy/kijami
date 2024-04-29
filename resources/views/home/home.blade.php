@@ -37,7 +37,7 @@
     <div class="explain_container">
         <div class="sub_explain_container">
             <img src="{{ URL::to('/') }}/img/nav_logo.svg" class="nav_logo" alt="logo du site">
-            <p>Kijami a été élaboré par des professionnels en activité au sein d'organisations médico-sociales. En
+            <p >Kijami a été élaboré par des professionnels en activité au sein d'organisations médico-sociales. En
                 combinant les
                 évaluations les plus couramment utilisées pour évaluer l'autonomie (telles que les GIR, GEVA, GEVASCO,
                 etc.)
@@ -46,13 +46,7 @@
                 d'opportunité, les questionnaires sur les vacances adaptées, etc.),Kijami offre un accompagnement pour
                 identifier et comprendre les besoins dans le contexte d'un handicap.
         </div>
-        <ul>
-            <li>Repas</li>
-            <li>Sommeil</li>
-            <li>Hygiène</li>
-            <li>Habillage</li>
-            <li>Communication</li>
-            <li>Activités</li>
-        </ul>
+        <img src="{{ URL::to('/') }}\img\domain_list.svg" class="domain_list" alt="logo du site">
+
     </div>
 </x-layout>

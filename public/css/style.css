@@ -81,11 +81,10 @@ nav {
     font-weight: 350;
 }
 
-.homepage_subtitle{
-    display:flex;
+.homepage_subtitle {
+    display: flex;
     margin-top: 150px;
     justify-content: center;
-
 }
 
 .cards_container {
@@ -127,17 +126,40 @@ nav {
     text-align: center;
 }
 
-.explain_container{
-    display:flex;
+.explain_container {
+    display: flex;
     flex-direction: row;
-    width:70%;
-    gap:15%;
-    margin:auto;
+    justify-content: center;
+    width: 50%;
+    gap: 15%;
+    margin: auto;
     margin-bottom: 200px;
+    padding: 50px;
+    border: solid 1px #0e2776;
+    border-radius: 15px;
 }
 
-.sub_explain_container{
-    display:flex;
+.sub_explain_container {
+    display: flex;
     flex-direction: column;
-    gap:25%;
+    gap: 25%;
+}
+
+.domain {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    font-size: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+
+.footer_logo {
+    width: 10vh;
 }

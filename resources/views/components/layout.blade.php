@@ -25,6 +25,9 @@
         </div class="nav_btn_container">
     </nav>
     {{ $slot }}
+<footer class="footer">
+    <img src="{{ URL::to('/') }}/img/footer_logo.svg" class="footer_logo" alt="logo du site">
+</footer>
 </body>
 
 </html>
