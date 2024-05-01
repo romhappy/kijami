@@ -129,6 +129,7 @@ nav {
 #logo_explain {
     margin-bottom: 0px;
 }
+
 .explain_container {
     display: flex;
     flex-direction: column;
@@ -137,12 +138,13 @@ nav {
     margin: auto;
     border: solid 50px #4ebcc2;
     border-radius: 275px;
-    border-image: linear-gradient(#0e2776, #4ebcc2) 70;
-    border-width: 40px;
-    border-style: solid;
-    border-radius: 275px;
     padding: 200px;
     text-align: center;
+    background: linear-gradient(#ffffff 0 0) padding-box,
+        /*this is your grey background*/
+            linear-gradient(to right, #4ebcc2, #0e2776) border-box;
+    color: #313149;
+    border: 60px solid transparent;
 }
 
 .sub_explain_title {
@@ -151,8 +153,12 @@ nav {
     align-items: center;
     flex-basis: 15% 85%;
     border-radius: 15px;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 150px;
+}
+
+.sub_explain_text{
+    font-size: 20px;
 }
 
 .footer {

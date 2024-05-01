@@ -83,7 +83,7 @@
         <div class="sub_explain_text">
             <p>Difficile de faire la différence entre une texture hachée ou moulinée, ou encore entre un lève
                 personne
-                et un verticalisateur? Kijami propose d'étayer chaque contenu par des descriptifs et définitions
+                et un verticalisateur?\n Kijami propose d'étayer chaque contenu par des descriptifs et définitions
                 précises.
             </p>
         </div>
