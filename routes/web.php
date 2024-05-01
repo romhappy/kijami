@@ -6,6 +6,7 @@ Route::get('/', function () {
     return view('home.home');
 })->name('app_home');
 
-Route::get('/about', function () {
-    return view('home.about');
-})->name('app_about');
+
+Route::get('/login', function () {
+    return view('login.login');
+})->name('app_login');

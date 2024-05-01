@@ -13,6 +13,7 @@
 
     <!-- Styles -->
     <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/login.css') }}" rel="stylesheet">
 
 </head>
 
@@ -21,7 +22,7 @@
         <a href="{{ route('app_home') }}"><img src="{{ URL::to('/') }}/img/nav_logo.svg" class="nav_logo"
                 alt="logo du site"></a>
         <div class="nav_btn_container">
-            <button class="nav_btn">Connection</button>
+            <a href="{{ route('app_login') }}"><button class="nav_btn">Connection</button></a>
             <button class="nav_btn">Créer un compte</button>
         </div class="nav_btn_container">
     </nav>
