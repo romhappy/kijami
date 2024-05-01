@@ -35,18 +35,17 @@
         </div>
     </div>
     <div class="explain_container">
-        <div class="sub_explain_container">
-            <div class="sub_explain_title">
-                <img src="{{ URL::to('/') }}/img/form_img.svg" class="img_explain" alt="logo familles">
-                <h3>Rediger la liste complète des besoins et compétences d'une personne en situation de handicap...</h3>
-            </div>
-            <div class="sub_explain_text">
-                <p>Vous allez être accompagnés à remplir un descriptif détaillé de votre situation, celle d'un proche ou
-                    d'une personne que vous accompagnez.
-                    Pour vous guider, Kijami propose des formulaires combinant les évaluations les plus utilisées (GEVA,
-                    GIR, MDPH, ...).
-                </p>
-            </div>
+        <img src="{{ URL::to('/') }}/img/nav_logo.svg" class="nav_logo" alt="logo du site" id="logo_explain">
+        <div class="sub_explain_title">
+            <img src="{{ URL::to('/') }}/img/form_img.svg" class="img_explain" alt="logo familles">
+            <h3>Rediger la liste complète des besoins et compétences d'une personne en situation de handicap...</h3>
+        </div>
+        <div class="sub_explain_text">
+            <p>Vous allez être accompagnés à remplir un descriptif détaillé de votre situation, celle d'un proche ou
+                d'une personne que vous accompagnez.
+                Pour vous guider, Kijami propose des formulaires combinant les évaluations les plus utilisées (GEVA,
+                GIR, MDPH, ...).
+            </p>
             <div class="sub_explain_title">
                 <img src="{{ URL::to('/') }}/img/situation_img.svg" class="img_explain" alt="logo familles">
                 <h3>A chaque situation, sa solution...</h3>
@@ -78,30 +77,25 @@
                 </p>
             </div>
         </div>
-
-        <div class="sub_explain_container">
-            <div class="sub_explain_title">
-                <img src="{{ URL::to('/') }}/img/learn_img.svg" class="img_explain" alt="logo familles">
-                <h3>Informer pour comprendre, comprendrer en informant</h3>
-            </div>
-            <div class="sub_explain_text">
-                <p>Difficile de faire la différence entre une texture hachée ou moulinée, ou encore entre un lève
-                    personne
-                    et un verticalisateur? Kijami propose d'étayer chaque contenu par des descriptifs et définitions
-                    précises.
-                </p>
-            </div>
-            <div class="sub_explain_title">
-                <img src="{{ URL::to('/') }}/img/aide_img.svg" class="img_explain" alt="logo familles">
-                <h3>Aider le plus grand nombre dans une démarche humaniste</h3>
-            </div>
-            <div class="sub_explain_text">
-                <p>Kijami est entièrement gratuit. Les données collectées ne sont utilisés qu'au profit de la solution
-                    Kijami et ne font l'objet d'aucune autre utilisation.
-                </p>
-            </div>
-            <div class="sub_explain_text">
-            </div>
+        <div class="sub_explain_title">
+            <img src="{{ URL::to('/') }}/img/learn_img.svg" class="img_explain" alt="logo familles">
+            <h3>Informer pour comprendre, comprendrer en informant</h3>
+        </div>
+        <div class="sub_explain_text">
+            <p>Difficile de faire la différence entre une texture hachée ou moulinée, ou encore entre un lève
+                personne
+                et un verticalisateur? Kijami propose d'étayer chaque contenu par des descriptifs et définitions
+                précises.
+            </p>
+        </div>
+        <div class="sub_explain_title">
+            <img src="{{ URL::to('/') }}/img/aide_img.svg" class="img_explain" alt="logo familles">
+            <h3>Aider le plus grand nombre dans une démarche humaniste</h3>
+        </div>
+        <div class="sub_explain_text">
+            <p>Kijami est entièrement gratuit. Les données collectées ne sont utilisés qu'au profit de la solution
+                Kijami et ne font l'objet d'aucune autre utilisation.
+            </p>
         </div>
     </div>
 </x-layout>
