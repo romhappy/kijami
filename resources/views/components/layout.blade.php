@@ -18,16 +18,17 @@
 
 <body>
     <nav>
-        <img src="{{ URL::to('/') }}/img/nav_logo.svg" class="nav_logo" alt="logo du site">
+        <a href="{{ route('app_home') }}"><img src="{{ URL::to('/') }}/img/nav_logo.svg" class="nav_logo"
+                alt="logo du site"></a>
         <div class="nav_btn_container">
             <button class="nav_btn">Connection</button>
             <button class="nav_btn">Créer un compte</button>
         </div class="nav_btn_container">
     </nav>
     {{ $slot }}
-<footer class="footer">
-    <img src="{{ URL::to('/') }}/img/footer_logo.svg" class="footer_logo" alt="logo du site">
-</footer>
+    <footer class="footer">
+        <img src="{{ URL::to('/') }}/img/footer_logo.svg" class="footer_logo" alt="logo du site">
+    </footer>
 </body>
 
 </html>
