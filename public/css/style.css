@@ -126,7 +126,7 @@ nav {
     text-align: center;
 }
 
-#logo_explain{
+#logo_explain {
     margin-bottom: 0px;
 }
 .explain_container {
@@ -137,7 +137,11 @@ nav {
     margin: auto;
     border: solid 50px #4ebcc2;
     border-radius: 275px;
-    padding:200px;
+    border-image: linear-gradient(#0e2776, #4ebcc2) 70;
+    border-width: 40px;
+    border-style: solid;
+    border-radius: 275px;
+    padding: 200px;
     text-align: center;
 }
 

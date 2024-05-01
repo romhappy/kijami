@@ -61,7 +61,6 @@
                         d'un projet personnalisé.</li>
                     <li>Des personnes en situation de handicap qui veulent adresser clairement leurs besoins dans le
                         contexte d'une demande d'accès aux doits.</li>
-                    <li>...</li>
                 </ul>
             </div>
             <div class="sub_explain_title">
