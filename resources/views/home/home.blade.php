@@ -36,17 +36,72 @@
     </div>
     <div class="explain_container">
         <div class="sub_explain_container">
-            <img src="{{ URL::to('/') }}/img/nav_logo.svg" class="nav_logo" alt="logo du site">
-            <p >Kijami a été élaboré par des professionnels en activité au sein d'organisations médico-sociales. En
-                combinant les
-                évaluations les plus couramment utilisées pour évaluer l'autonomie (telles que les GIR, GEVA, GEVASCO,
-                etc.)
-                avec une multitude d'autres outils de collecte de données (tels que les dossiers d'admission, les
-                rapports
-                d'opportunité, les questionnaires sur les vacances adaptées, etc.),Kijami offre un accompagnement pour
-                identifier et comprendre les besoins dans le contexte d'un handicap.
+            <div class="sub_explain_title">
+                <img src="{{ URL::to('/') }}/img/form_img.svg" class="img_explain" alt="logo familles">
+                <h3>Rediger la liste complète des besoins et compétences d'une personne en situation de handicap...</h3>
+            </div>
+            <div class="sub_explain_text">
+                <p>Vous allez être accompagnés à remplir un descriptif détaillé de votre situation, celle d'un proche ou
+                    d'une personne que vous accompagnez.
+                    Pour vous guider, Kijami propose des formulaires combinant les évaluations les plus utilisées (GEVA,
+                    GIR, MDPH, ...).
+                </p>
+            </div>
+            <div class="sub_explain_title">
+                <img src="{{ URL::to('/') }}/img/situation_img.svg" class="img_explain" alt="logo familles">
+                <h3>A chaque situation, sa solution...</h3>
+            </div>
+            <div class="sub_explain_text">
+                <p>Kijami a été conçu par des professionnels du médico-social qui ont fait le constat d'un ensemble de
+                    besoins:</p>
+                <ul>
+                    <li>Des familles qui souhaitent décrire la situation d'un proche dans le cadre d'une demande
+                        d'admission
+                        dans un établissement. </li>
+                    <li>Des professionnels qui souhaitent transmettre leurs observations dans le cadre
+                        d'un projet personnalisé.</li>
+                    <li>Des personnes en situation de handicap qui veulent adresser clairement leurs besoins dans le
+                        contexte d'une demande d'accès aux doits.</li>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="sub_explain_title">
+                <img src="{{ URL::to('/') }}/img/ethic_img.svg" class="img_explain" alt="logo familles">
+                <h3>Harmoniser les pratiques avec une reflexion éthique sur la question de l'évaluation</h3>
+            </div>
+            <div class="sub_explain_text">
+                <p>Kijami propose à chaque intervenant autour de la personne en situation de handicap d'adopter un
+                    vocabulaire compris de tous, qui limite les interprétations.
+                    Chaque mot a un sens et un poids, aussi, Kijami s'appuie sur une réèlle éthique de l'évaluation afin
+                    de
+                    garantir respect et confidentialité.
+                </p>
+            </div>
         </div>
-        <img src="{{ URL::to('/') }}\img\domain_list.svg" class="domain_list" alt="logo du site">
 
+        <div class="sub_explain_container">
+            <div class="sub_explain_title">
+                <img src="{{ URL::to('/') }}/img/learn_img.svg" class="img_explain" alt="logo familles">
+                <h3>Informer pour comprendre, comprendrer en informant</h3>
+            </div>
+            <div class="sub_explain_text">
+                <p>Difficile de faire la différence entre une texture hachée ou moulinée, ou encore entre un lève
+                    personne
+                    et un verticalisateur? Kijami propose d'étayer chaque contenu par des descriptifs et définitions
+                    précises.
+                </p>
+            </div>
+            <div class="sub_explain_title">
+                <img src="{{ URL::to('/') }}/img/aide_img.svg" class="img_explain" alt="logo familles">
+                <h3>Aider le plus grand nombre dans une démarche humaniste</h3>
+            </div>
+            <div class="sub_explain_text">
+                <p>Kijami est entièrement gratuit. Les données collectées ne sont utilisés qu'au profit de la solution
+                    Kijami et ne font l'objet d'aucune autre utilisation.
+                </p>
+            </div>
+            <div class="sub_explain_text">
+            </div>
+        </div>
     </div>
 </x-layout>

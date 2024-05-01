@@ -128,30 +128,30 @@ nav {
 
 .explain_container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    width: 50%;
-    gap: 15%;
+    width: 30%;
     margin: auto;
     margin-bottom: 200px;
-    padding: 50px;
-    border: solid 1px #0e2776;
-    border-radius: 15px;
+    gap: 100px;
 }
 
 .sub_explain_container {
-    display: flex;
-    flex-direction: column;
-    gap: 40%;
+    width: 100%;
 }
 
-.domain {
+.sub_explain_title {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    align-items: flex-start;
-    font-size: 30px;
+    align-items: center;
+    flex-basis: 15% 85%;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    padding: 10px;
 }
+
+
 
 .footer {
     display: flex;
