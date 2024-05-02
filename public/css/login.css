@@ -26,6 +26,7 @@ body {
     width: 100%;
     border-radius: 15px;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .login_input {
@@ -42,4 +43,17 @@ body {
     justify-content: space-between;
     align-items: center;
 
+}
+
+.submit_btn{
+    margin: 15px;
+    background: linear-gradient(to right, #4ebcc2, #0e2776);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 100%;
 }

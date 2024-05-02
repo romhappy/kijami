@@ -21,7 +21,7 @@
             <label class="checkbox">
                 <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Rester connecté
             </label>
-            <button class="" type="submit">Se connecter</button>
+            <button class="submit_btn" type="submit">Se connecter</button>
         </form>
     </div>
     <div class="form_forgot">
