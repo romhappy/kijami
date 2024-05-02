@@ -1,54 +1,45 @@
-@import "bourbon";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+html,
 body {
-	background: #eee !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    width: 100%;
+    height: 100%;
 }
 
-.wrapper {
-	margin-top: 80px;
-  margin-bottom: 80px;
+.login_form_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    width: 20%;
+    border-radius: 15px;
+}
+.login_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    width: 100%;
+    border-radius: 15px;
+    align-items: center;
 }
 
-.form-signin {
-  max-width: 380px;
-  padding: 15px 35px 45px;
-  margin: 0 auto;
-  background-color: #fff;
-  border: 1px solid rgba(0,0,0,0.1);
+.login_input {
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    border:solid 1px grey;
+}
 
-  .form-signin-heading,
-	.checkbox {
-	  margin-bottom: 30px;
-	}
+.form_forgot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
-	.checkbox {
-	  font-weight: normal;
-	}
-
-	.form-control {
-	  position: relative;
-	  font-size: 16px;
-	  height: auto;
-	  padding: 10px;
-		@include box-sizing(border-box);
-
-		&:focus {
-		  z-index: 2;
-		}
-	}
-
-	input[type="text"] {
-	  margin-bottom: -1px;
-	  border-bottom-left-radius: 0;
-	  border-bottom-right-radius: 0;
-      border-radius: 15px;
-	}
-
-	input[type="password"] {
-	  margin-bottom: 20px;
-	  border-top-left-radius: 0;
-	  border-top-right-radius: 0;
-      border-radius: 15px;
-
-	}
 }
