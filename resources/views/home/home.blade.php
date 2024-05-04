@@ -78,7 +78,7 @@
         </div>
         <div class="sub_explain_title">
             <img src="{{ URL::to('/') }}/img/learn_img.svg" class="img_explain" alt="logo familles">
-            <h3>Informer pour comprendre, comprendrer en informant</h3>
+            <h3>Informer pour comprendre, comprendre en informant</h3>
         </div>
         <div class="sub_explain_text">
             <p>Difficile de faire la différence entre une texture hachée ou moulinée, ou encore entre un lève
@@ -92,7 +92,7 @@
             <h3>Aider le plus grand nombre dans une démarche humaniste</h3>
         </div>
         <div class="sub_explain_text">
-            <p>Kijami est entièrement gratuit. Les données collectées ne sont utilisés qu'au profit de la solution
+            <p>Kijami est entièrement gratuit. Les données collectées ne sont utilisées qu'au profit de la solution
                 Kijami et ne font l'objet d'aucune autre utilisation.
             </p>
         </div>

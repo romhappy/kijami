@@ -17,8 +17,8 @@
         <a href="{{ route('app_home') }}"><img src="{{ URL::to('/') }}/img/nav_logo.svg" class="nav_logo"
                 alt="logo du site"></a>
         <div class="nav_btn_container">
-            <a href="{{ route('app_login') }}"><button class="nav_btn">Connection</button></a>
-            <button class="nav_btn">Créer un compte</button>
+            <a href="{{ route('app_login') }}"><button class="nav_btn" type="button">Connection</button></a>
+            <a href="{{ route('app_register') }}"><button class="nav_btn" type="button">Créer un compte</button></a>
         </div class="nav_btn_container">
     </nav>
     {{ $slot }}

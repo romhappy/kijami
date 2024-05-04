@@ -14,20 +14,29 @@
     <div class="login_form_container">
         <form class="login_form">
             <img src="{{ URL::to('/') }}/img/nav_logo.svg" class="nav_logo" alt="logo du site">
-            <h2>Connectez-vous</h2>
-            <input type="text" class="login_input" name="username" placeholder="Email Address" required=""
+            <h2>Inscription</h2>
+            <input type="text" class="login_input" name="username" placeholder="Nom" required="" autofocus="" />
+            <input type="text" class="login_input" name="username" placeholder="Prénom" required=""
                 autofocus="" />
-            <input type="password" class="login_input" name="password" placeholder="Password" required="" />
+                <input type="text" class="login_input" name="username" placeholder="Email" required=""
+                autofocus="" />
+                <input type="text" class="login_input" name="username" placeholder="Mot de passe" required=""
+                autofocus="" />
+                <input type="text" class="login_input" name="username" placeholder="Confirmation mot de passe" required=""
+                autofocus="" />
+
             <label class="checkbox">
-                <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Rester connecté
+                <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Je reconnais avoir pris connaissance des conditions générales d'utilisation.
             </label>
-            <button class="submit_btn" type="submit">Se connecter</button>
+            <button class="submit_btn" type="submit">Créer un compte</button>
         </form>
     </div>
     <div class="form_forgot">
-        <a href="#"></a>Mot de passe oublié ?</a>
-        <a href="#"></a>Pas encore de compte ? Créez en un ! </a>
+        <a href="#"></a>Déjà un compte? Connectez vous ...</a>
     </div>
+    <footer class="footer">
+        <img src="{{ URL::to('/') }}/img/footer_logo.svg" class="footer_logo" alt="logo du site">
+    </footer>
 </body>
 
 </html>
