@@ -10,3 +10,7 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login.login');
 })->name('app_login');
+
+Route::get('/register', function () {
+    return view('login.register');
+})->name('app_register');
