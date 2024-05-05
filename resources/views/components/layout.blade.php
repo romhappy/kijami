@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title> @yield('title')</title>
+    <title>{{ config('app.name', 'Laravel') }}</title>
 
 
     <!-- Styles -->
@@ -21,7 +22,9 @@
             <a href="{{ route('app_register') }}"><button class="nav_btn" type="button">Créer un compte</button></a>
         </div class="nav_btn_container">
     </nav>
-    {{ $slot }}
+    <main>
+        {{ $slot }}
+    </main>
     <footer class="footer">
         <img src="{{ URL::to('/') }}/img/footer_logo.svg" class="footer_logo" alt="logo du site">
     </footer>
